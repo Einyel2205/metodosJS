@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Generador de Comentarios</title>    
+</head>
+<body>
+    <div class="container">
+        <h1>Comment generator</h1>
+        <div class="comment-form">
+          <label for="comment">Add a comment:</label>
+          <textarea id="comment" rows="4" placeholder="maximum 255 characters"></textarea>
+          <p id="counter" class="counter">255</p>
+          <div class="buttons">
+            <button id="submit-comment">Comment</button>
+            <button id="submit-uppercase">uppercase text</button>
+            <button id="submit-lowercase">lowercase text</button>
+          </div>
+        </div>
+        <div class="comment-box">
+          <ul>
+            <li>
+              <p id="number1"><strong>User x:</strong> The comment should be shown here.</p>
+            </li>
+          </ul>
+        </div>
+    </div>
+</body>
+</html>
